@@ -228,8 +228,8 @@ animations = [{
 }]
 
 [sub_resource type="CapsuleShape2D" id="CapsuleShape2D_8jmjm"]
-radius = 72.3034
-height = 144.607
+radius = 46.4807
+height = 122.195
 
 [sub_resource type="Animation" id="Animation_hq408"]
 length = 1.36
@@ -414,8 +414,8 @@ scale = Vector2(0.4, 0.4)
 script = ExtResource("1_j77ey")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
-position = Vector2(3, 9)
-scale = Vector2(0.929687, 0.943359)
+position = Vector2(-14.25, 31.125)
+scale = Vector2(0.794922, 0.770508)
 sprite_frames = SubResource("SpriteFrames_oauio")
 animation = &"jump_down"
 
@@ -426,7 +426,7 @@ position_smoothing_enabled = true
 position_smoothing_speed = 3.0
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-position = Vector2(1.66667, 28.3333)
+position = Vector2(-17.5, 40)
 scale = Vector2(1.1295, 1.3503)
 shape = SubResource("CapsuleShape2D_8jmjm")
 
